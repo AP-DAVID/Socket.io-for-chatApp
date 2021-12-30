@@ -18,7 +18,7 @@ app.use(router)
 
 const io = require("socket.io")(server, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://umisexample.vercel.app",
       methods: ["GET", "POST"],
       allowedHeaders: ["my-custom-header"],
       credentials: true
